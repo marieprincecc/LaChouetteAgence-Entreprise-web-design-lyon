@@ -18,6 +18,11 @@ a:hover {
     cursor: pointer;
 }
 
+a:focus,
+button:hover{
+font-style: italic;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -332,7 +337,7 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+   
 }
 
 .navbar-toggle {

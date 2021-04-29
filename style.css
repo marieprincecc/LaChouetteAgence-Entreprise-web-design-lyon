@@ -281,7 +281,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -295,9 +295,13 @@ a {
 
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
+.principal {
+    color: white;
+    font-weight: 500;
 
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -325,7 +329,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;

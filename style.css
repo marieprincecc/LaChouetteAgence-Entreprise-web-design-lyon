@@ -274,7 +274,9 @@ button {
     margin-top: 6px;
 }
 
-
+.md-8{
+    margin-left: 0px;
+}
 
 h1,
 h2,
@@ -312,7 +314,7 @@ p {
 }
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 .page2{
     background-color: #F8AE8C;
@@ -542,6 +544,10 @@ h1 {
     form {
         padding: 5px;
     }
+    .portfolio-thumb{
+        margin: auto;
+    }
+    
 }
 @media (max-width: 400px) {
     .bloc {

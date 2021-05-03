@@ -1,7 +1,7 @@
 @font-face {
     font-family: et-line;
     src: url(../fonts/et-line.eot&display=swap);
-    src: url(../fonts/et-line.eot?#iefix&display=swap) format('embedded-opentype'), url(../fonts/et-line.woff&display=swap) format('woff'), url(../fonts/et-line.ttf&display=swap) format('truetype'), url(../fonts/et-line.svg#et-line&display=swap) format('svg');
+    src: url(../fonts/et-line.eot?#iefix&display=swap) format('embedded-opentype'), url(../fonts/et-line.woff) format('woff'), url(../fonts/et-line.ttf) format('truetype'), url(../fonts/et-line.svg#et-line&display=swap) format('svg');
     font-weight: 400;
     font-style: normal;
      /*! faire apparaitre le texte avec une autres polices en attendant le chargement de celle-ci*/

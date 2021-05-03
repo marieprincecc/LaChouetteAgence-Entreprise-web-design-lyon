@@ -8,10 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=contain">
     <link rel="shortcut icon" type="image/png" href="favicon-16x16.png">
 	<!--modification keywords,decription,viewport favicon-->
-    
 
+	<!--suppression des balises link non utilisé sur la page2-->
 	<link rel="stylesheet" type="text/css" href="style.css">
-	
+	<!--suppression des balises link non utilisé sur la page2-->
 	
 	
     
@@ -36,7 +36,7 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div aria-roledescription="banner" class="bloc bgc-white l-bloc " id="bloc-0">
+<header aria-roledescription="banner" class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
@@ -51,7 +51,7 @@
 			</div>
 		</nav>
 	</div>
-</div>
+</header>
 <!-- bloc-0 END -->
 
 <!-- bloc-6 -->
@@ -59,6 +59,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
+				<!--retrait de tc-white pour visibilité du texte-->
 				<h1 class="text-center hero-bloc-text">
 					Parlons web design !
 				</h1>
@@ -66,6 +67,7 @@
 					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 				</p>
+				<!--retrait de tc-white pour visibilité du texte-->
 			</div>
 		</div>
 	</div>
@@ -77,6 +79,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
+				<!--ajout aria label pour le formulaire et suppression de "novalidate et fail msg" pour validation w3c-->
 				<form aria-label="formulaire de contact" method="post" action="receiver@yoursite.com" id="form_1" >
 						<label for="name">
 							Nom
@@ -122,7 +125,7 @@
 
 
 <!-- Footer - bloc-8 -->
-<div aria-roledescription="contentinfo" class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+<footer aria-roledescription="contentinfo" class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
@@ -133,7 +136,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</footer>
 <!-- Footer - bloc-8 END -->
 </div>
 

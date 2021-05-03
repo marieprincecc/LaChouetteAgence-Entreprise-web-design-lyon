@@ -18,10 +18,12 @@ a:hover {
     cursor: pointer;
 }
 
+/*!ajout du marqueur focus*/
 *:focus
 {
 font-style: italic;
 }
+/*!ajout du marqueur focus*/
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -196,11 +198,12 @@ font-style: italic;
         -webkit-transform: translateY(-50%);
     }
 }
-   
+  /*! modif pour visibilité*/ 
 .contact{
     background-color:#364577;
     color: #f9dfd2;
 }
+/*! modif pour visibilité*/
 
 .mg-md {
     margin-top: 10px;
@@ -274,9 +277,11 @@ button {
     margin-top: 6px;
 }
 
+/*!position citation*/
 .md-8{
     margin-left: 0px;
 }
+/*!position citation*/
 
 h1,
 h2,
@@ -309,6 +314,7 @@ p {
 
 
 }
+/*!correction vivibilité et position*/
 .footer{
     color: #333333;
 }
@@ -322,8 +328,6 @@ p {
     color: #333333;
 }
 
-
-
 .cta-hero {
     margin-top: 22px;
     text-transform: uppercase;
@@ -331,6 +335,7 @@ p {
     font-size: 16px;
     font-weight: 700;
 }
+/*!correction vivibilité et position*/
 
 .social {
     max-width: 400px;
@@ -408,10 +413,12 @@ h1 {
     color: #F3976C!important;
 }
 
+/*!correction vivibilité*/
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #333333;
 }
+/*!correction vivibilité*/
 
 
 .ltc-white {

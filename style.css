@@ -19,9 +19,10 @@ a:hover {
 }
 
 /*!ajout du marqueur focus*/
-*:focus
+a:focus, a:active, .btn:active, .btn:focus
 {
-font-style: italic;
+border: 2px #333333 solid;
+box-shadow: 5px 5px 15px 5px #333333;
 }
 /*!ajout du marqueur focus*/
 
